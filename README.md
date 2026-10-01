@@ -23,8 +23,7 @@ Provisionamento de um *Resource Group* (`RG-Laboratorio-Sec`) atuando como o con
 
 ### 3. Controles Dinâmicos e Acesso Condicional (Zero Trust)
 Implementação de políticas de *Conditional Access* atuando como o perímetro de segurança moderno. A regra configurada bloqueia o acesso por padrão caso a tentativa de login não satisfaça a exigência de Autenticação Multifator (MFA), mitigando o risco de credenciais vazadas.
-  <img width="1871" height="516" alt="Acesso Condicional" src="https://github.com/user-attachments/assets/ee3ffe7f-daf5-404b-8fe3-98642997aff1" />
-
+<img width="1757" height="764" alt="Captura de tela_1-10-2026_102649_portal azure com" src="https://github.com/user-attachments/assets/e9012e43-b30d-4396-ae83-202c511ef23a" />
 ### 4. Elevação de Privilégio Just-In-Time (PIM)
 Eliminação do vetor de risco de contas superprivilegiadas permanentes. A função administrativa de *Global Reader* foi integrada ao Azure PIM. O acesso privilegiado passou a exigir ativação sob demanda (Just-In-Time), com aprovação e prazo de expiração predefinido.
   <img width="1867" height="515" alt="PIM" src="https://github.com/user-attachments/assets/42820a70-6ea4-47cc-b281-332839caf3e7" />
