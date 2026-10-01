@@ -31,6 +31,7 @@ Eliminação do vetor de risco de contas superprivilegiadas permanentes. A funç
 
 ### 5. Rastreabilidade e Operações de Segurança
 Validação contínua através da análise de *Sign-in logs* (Logs de entrada). O rastreamento detalhado do comportamento de autenticação permitiu validar a eficácia da política de Acesso Condicional durante as tentativas de login.
+<img width="1596" height="484" alt="Captura de tela_1-10-2026_15919_portal azure com" src="https://github.com/user-attachments/assets/740dd3dd-87c9-464e-b0da-724c4983bbf6" />
 
 ## Conclusão
 A implementação bem-sucedida desta infraestrutura demonstra a capacidade de traduzir requisitos teóricos de Defesa Cibernética em configurações técnicas sólidas dentro de um ecossistema real de nuvem. A orquestração simultânea de RBAC, Conditional Access e PIM substitui o antigo conceito de "rede confiável" por um perímetro focado em identidade, garantindo que o acesso correto seja concedido apenas à identidade correta, no momento certo.
