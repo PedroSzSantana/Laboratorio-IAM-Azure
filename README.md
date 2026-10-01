@@ -23,14 +23,14 @@ Provisionamento de um *Resource Group* (`RG-Laboratorio-Sec`) atuando como o con
 
 ### 3. Controles Dinâmicos e Acesso Condicional (Zero Trust)
 Implementação de políticas de *Conditional Access* atuando como o perímetro de segurança moderno. A regra configurada bloqueia o acesso por padrão caso a tentativa de login não satisfaça a exigência de Autenticação Multifator (MFA), mitigando o risco de credenciais vazadas.
-<img width="1757" height="764" alt="Captura de tela_1-10-2026_102649_portal azure com" src="https://github.com/user-attachments/assets/e9012e43-b30d-4396-ae83-202c511ef23a" />
+  <img width="1780" height="677" alt="AcessoCondicional" src="https://github.com/user-attachments/assets/fae95a7c-90b6-4873-bb5c-08ef77c704b4" />
+
 ### 4. Elevação de Privilégio Just-In-Time (PIM)
 Eliminação do vetor de risco de contas superprivilegiadas permanentes. A função administrativa de *Global Reader* foi integrada ao Azure PIM. O acesso privilegiado passou a exigir ativação sob demanda (Just-In-Time), com aprovação e prazo de expiração predefinido.
   <img width="1867" height="515" alt="PIM" src="https://github.com/user-attachments/assets/42820a70-6ea4-47cc-b281-332839caf3e7" />
 
 ### 5. Rastreabilidade e Operações de Segurança
 Validação contínua através da análise de *Sign-in logs* (Logs de entrada). O rastreamento detalhado do comportamento de autenticação permitiu validar a eficácia da política de Acesso Condicional durante as tentativas de login.
-<img width="1880" height="466" alt="Logs" src="https://github.com/user-attachments/assets/4551dc87-3594-4a5e-a4fe-614b2d99dd77" />
 
 ## Conclusão
 A implementação bem-sucedida desta infraestrutura demonstra a capacidade de traduzir requisitos teóricos de Defesa Cibernética em configurações técnicas sólidas dentro de um ecossistema real de nuvem. A orquestração simultânea de RBAC, Conditional Access e PIM substitui o antigo conceito de "rede confiável" por um perímetro focado em identidade, garantindo que o acesso correto seja concedido apenas à identidade correta, no momento certo.
